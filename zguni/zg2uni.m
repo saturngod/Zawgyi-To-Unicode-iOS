@@ -222,7 +222,8 @@
         index++;
         
     }
-
+    [zawgyi release];
+    [unicode release];
     return output;
 }
 
