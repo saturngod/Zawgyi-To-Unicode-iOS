@@ -137,7 +137,7 @@
     [zawgyi addObject:@"ေ([က-အ])(ှျ)"];
     [unicode addObject:@"$1$2ေ"];
     [zawgyi addObject:@"ေ([က-အ])(ျ)"];
-    [unicode addObject:@"$1$2​ေ"];
+    [unicode addObject:@"$1$2ေ"];
     [zawgyi addObject:@"ေ([က-အ])"];
     [unicode addObject:@"$1ေ"];
 
@@ -204,7 +204,6 @@
     
     for (NSString* zgReg in zawgyi) {
         
-        NSLog(@"%@",zgReg);
         
         NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:zgReg
                                                                                options:NSRegularExpressionCaseInsensitive
